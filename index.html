@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Instagram Clone </h1>
+        <input type="text" id="search" placeholder="Search...">
+    </header>
+
+    <main>
+        <section id="profile">
+            <div class="profile-header">
+                <img src="./image.png" alt="Profile Picture" class="profile-pic">
+                <div class="profile-info">
+                    <h2>username</h2>
+                    <p><strong>Posts:</strong> 102 | <strong>Followers:</strong> 1M | <strong>Following:</strong> 2</p>
+                    <button id="followBtn">Follow</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="feed">
+            <h2>Feed</h2>
+            <div class="post">
+                <div class="post-header">
+                    <img src="./image.png" alt="User" class="user-pic">
+                    <span class="username">Srinivasarao</span>
+                </div>
+                <img src="./image.png" alt="Post" class="post-img" id="srinu">
+                <div class="post-actions">
+                    <button>Like</button>
+                    <button>Comment</button>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <img src="./image.png" alt="User" class="user-pic">
+                    <span class="username">Shiva</span>
+                </div>
+                <img src="./pngtree-cute-handsome-boy-png-image_3849104.jpg" alt="Post" class="post-img">
+                <div class="post-actions">
+                    <button>Likes 20,00000000000000</button>
+                    <button>Comment</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="reels">
+            <h2>Reels</h2>
+            <div class="reel">
+                <video controls class="reel-video">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="reel-info">
+                    <span class="username">Reel User</span>
+                    <p>Reel description here...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
